@@ -5,7 +5,7 @@
 //    ██║   ███████╗███████║   ██║   ██║██║        ██║   
 //    ╚═╝   ╚══════╝╚══════╝   ╚═╝   ╚═╝╚═╝        ╚═╝   
 
-// Developed by: Kkermit. All rights reserved. (2025)
+// Developed by: Kkermit. All rights reserved. (2026)
 // MIT License
 
 const { Client, Collection } = require(`discord.js`);

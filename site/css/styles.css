@@ -266,7 +266,23 @@ body {
 	border-color: #ffffff;
 }
 
-.light-mode #back-to-top,
+#back-to-top {
+	background-color: #BD5FFF;
+}
+
+#back-to-top:hover {
+	background-color: #ca7fff;
+}
+
+.light-mode #back-to-top {
+	background-color: #BD5FFF;
+	color: #ffffff;
+}
+
+.light-mode #back-to-top:hover {
+	background-color: #ca7fff;
+}
+
 .light-mode #theme-toggle {
 	background-color: #8a2be2;
 	color: #ffffff;

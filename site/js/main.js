@@ -217,7 +217,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	backToTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
 	backToTopButton.title = "Back to top";
 	backToTopButton.className =
-		"fixed bottom-5 right-5 bg-primary hover:bg-primary-light text-white border-none rounded-full w-12 h-12 flex items-center justify-center cursor-pointer shadow-md transition-all duration-300 opacity-0 z-50";
+		"fixed bottom-[18px] right-[120px] text-white border-none rounded-full w-12 h-12 flex items-center justify-center cursor-pointer shadow-md transition-all duration-300 opacity-0 z-50";
+	backToTopButton.style.backgroundColor = "#BD5FFF";
 	document.body.appendChild(backToTopButton);
 
 	window.addEventListener("scroll", () => {
