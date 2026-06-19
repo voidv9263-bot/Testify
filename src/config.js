@@ -65,8 +65,8 @@ module.exports = {
 	musicEmojiError: "❌",
 
 	// CHANNEL IDS //
-	botLeaveChannel: "1517561416712716288", // Logging channel for bot leaving servers
-	botJoinChannel: "1517561416712716288", // Logging channel for bot joining servers
+	botLeaveChannel: "1517587016806568087", // Logging channel for bot leaving servers
+	botJoinChannel: "1517587016806568087", // Logging channel for bot joining servers
 	commandErrorChannel: "1517561497520308365", // Logging channel for command errors
 	evalLogsChannel: "1517561558501167255", // Logging channel for eval command
 	dmLoggingChannel: "1517561649840525482", // Logging channel for DMs (when users direct message the bot)
