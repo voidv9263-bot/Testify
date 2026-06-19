@@ -239,7 +239,7 @@ class ConsoleLogger {
 		}
 
 		const payload = {
-			username: "Testify Console Logger",
+			username: "StarLine Console Logger",
 			avatar_url: "https://i.postimg.cc/KznLsF43/Testi-1.png",
 			content: "```\n" + content + "\n```",
 		};
