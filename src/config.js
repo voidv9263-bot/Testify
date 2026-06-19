@@ -13,7 +13,7 @@ module.exports = {
 	noPerms: `You **do not** have the required permissions to use this command!`,
 	ownerOnlyCommand: `This command is **only** available for the owner of the bot!`,
 	filterMessage: "Your message includes profanity which is **not** allowed!",
-	botInvite: "https://discord.com/oauth2/authorize?client_id=1515507427246608424&permissions=8&integration_type=0&scope=bot",
+	botInvite: "https://discord.com/oauth2/authorize?client_id=1517577280434475141&permissions=8&integration_type=0&scope=bot",
 	botServerInvite: "https://discord.gg/Gv2zmPteJ7",
 
 	noPerms: (missingPerms) => {
