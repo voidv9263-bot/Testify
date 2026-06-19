@@ -21,7 +21,7 @@ module.exports = {
                     .setLabel('Support Server')
                     .setEmoji('🔗')
                     .setStyle(ButtonStyle.Link)
-                    .setURL("ttps://discord.gg/Gv2zmPteJ7")
+                    .setURL("https://discord.gg/Gv2zmPteJ7")
                 );
             
                 const embedHelpServer = new EmbedBuilder()
