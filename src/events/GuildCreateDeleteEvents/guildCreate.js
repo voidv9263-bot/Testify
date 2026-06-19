@@ -41,7 +41,7 @@ module.exports = {
         { name: "Server Number", value: `>>> \`\`\`${client.guilds.cache.size}\`\`\`` },
         { name: "Server Invite", value: `>>> \`\`\`${inviteLink}\`\`\`` })
     .setThumbnail(guild.iconURL({ dynamic: true }))
-    .setFooter({ text: `Orbit ${client.guilds.cache.size}`, iconURL: client.user.avatarURL({ dynamic: true }) })
+    .setFooter({ text: `StarLine ${client.guilds.cache.size}`, iconURL: client.user.avatarURL({ dynamic: true }) })
     .setTimestamp();
 
     const LogChannel = client.channels.cache.get(logchannelid) || await client.channels.fetch(logchannelid).catch(() => {}) || false;
