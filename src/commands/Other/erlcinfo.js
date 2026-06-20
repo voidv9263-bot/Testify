@@ -27,7 +27,7 @@ module.exports = {
 
             return interaction.reply({
                 content:
-                    "❌ ERLC has not been configured for this server.",
+                    "❌ ERLC has not been configured for this server run /erlc config.",
                 ephemeral: true
             });
 
