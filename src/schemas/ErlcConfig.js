@@ -1,21 +1,26 @@
 const mongoose = require("mongoose");
 
-const erlcConfigSchema = new mongoose.Schema({
-    guildId: {
-        type: String,
-        required: true,
-        unique: true
-    },
+module.exports = mongoose.model(
+    "ErlcConfig",
 
-    apiKey: {
-        type: String,
-        required: true
-    },
+    new mongoose.Schema({
 
-    serverKey: {
-        type: String,
-        required: true
-    }
-});
+        guildId: {
+            type: String,
+            unique: true
+        },
 
-module.exports = mongoose.model("ErlcConfig", erlcConfigSchema);
+        apiKey: String,
+
+        serverKey: String,
+
+        joinLogs: String,
+
+        leaveLogs: String,
+
+        commandLogs: String,
+
+        killLogs: String
+
+    })
+);
